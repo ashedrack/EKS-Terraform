@@ -42,7 +42,7 @@ $ kubectl get deployment metrics-server -n kube-system
 # Deploy and access Kubernetes Dashboard 
     $ kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.0-b	eta8/aio/deploy/recommended.yaml 
 
-# Create a proxy server that will allow you to navigate to the dashboard from the browser on your local machine. This will continue running until you stop the process by pressing CTRL + C. 
+Create a proxy server that will allow you to navigate to the dashboard from the browser on your local machine. This will continue running until you stop the process by pressing CTRL + C. 
     $ kubectl proxy 
 
 # You should be able to access the Kubernetes dashboard here (http://127.0.0.1:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/). 
