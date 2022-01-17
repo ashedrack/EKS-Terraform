@@ -36,8 +36,8 @@ Download and unzip the metrics server by running the following command.
 # Deploy the metrics server to the cluster by running the following command. 
     $ kubectl apply -f metrics-server-0.3.6/deploy/1.8+/ 
 
-# Verify that the metrics server has been deployed. If successful, you should see something like this. 
-$ kubectl get deployment metrics-server -n kube-system 
+Verify that the metrics server has been deployed. If successful, you should see something like this. 
+    $ kubectl get deployment metrics-server -n kube-system 
 
 # Deploy and access Kubernetes Dashboard 
     $ kubectl apply -f https://raw.githubusercontent.com/kubernetes/dashboard/v2.0.0-b	eta8/aio/deploy/recommended.yaml 
