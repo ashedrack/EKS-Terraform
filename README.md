@@ -60,6 +60,6 @@ Select "Token" on the Dashboard UI then copy and paste the entire token you rece
 
 Navigate to the "Cluster" page by clicking on "Cluster" in the left navigation bar. You should see a list of nodes in your cluster. 
 
-# Congratulations, you have provisioned an EKS cluster, configured kubectl, and deployed the Kubernetes dashboard. 
+Congratulations, you have provisioned an EKS cluster, configured kubectl, and deployed the Kubernetes dashboard. 
 
-## Compiled by Shedrack...
+Compiled by Shedrack...
