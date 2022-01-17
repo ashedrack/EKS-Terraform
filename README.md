@@ -1,8 +1,4 @@
-# Learn Terraform - Provision an EKS Cluster
-
-This repo is a companion repo to the [Provision an EKS Cluster learn guide](https://learn.hashicorp.com/terraform/kubernetes/provision-eks-cluster), containing
-Terraform configuration files to provision an EKS cluster on AWS.
-
+# Provision a Kubernetes Cluster in AWS
 # Prerequisites 
 
 1. An AWS account with the IAM permissions listed on the EKS module documentation, 
@@ -63,3 +59,6 @@ Navigate to the "Cluster" page by clicking on "Cluster" in the left navigation b
 Congratulations, you have provisioned an EKS cluster, configured kubectl, and deployed the Kubernetes dashboard. 
 
 Compiled by Shedrack...
+
+Ref: This repo is a companion repo to the [Provision an EKS Cluster learn guide](https://learn.hashicorp.com/terraform/kubernetes/provision-eks-cluster), containing
+Terraform configuration files to provision an EKS cluster on AWS.
